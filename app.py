@@ -17,7 +17,7 @@ class MqttDelegate(object):
         self.client = client
 
     def on_connect(self, client, userdata, flags, rc):
-        log('MQTT connected.', True)
+        log('MQTT connected.')
         nodes = os.getenv('CLIENT_NODES', 'node1,node2').split(",")
         log(nodes)
         for node in nodes:
