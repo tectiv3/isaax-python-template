@@ -1,7 +1,7 @@
 {
-  "name": "python-app",
+  "name": "env-broadcast",
   "version": "",
-  "description": "python - raspberry-pi",
+  "description": "broadcast env variables to mqtt subscribers",
   "main": "app.py",
   "author": "",
   "license": "",
