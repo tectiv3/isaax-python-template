@@ -29,7 +29,7 @@ class MqttDelegate(object):
             log(line2)
             line3 = os.getenv(node + '_LINE3', '1337 yen')
             log(line3)
-            client.publish('/display/' + node, json.dumps([line1, line2, line3]), 1, True)
+            client.publish('/display/' + node.lower(), json.dumps([node, line1, line2, line3]), 1, True)
 
 mqttc = mqtt.Client('isaax-broker')
 delegate = MqttDelegate(mqttc)
