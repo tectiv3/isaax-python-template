@@ -1,7 +1,7 @@
 {
   "name": "env-broadcast",
   "version": "v0.1.0",
-  "description": "broadcast env variables to mqtt subscribers",
+  "description": "broadcast env variables to mqtt subscribers!",
   "main": "app.py",
   "author": "xshell",
   "license": "proprietary",
